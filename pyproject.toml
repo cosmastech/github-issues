@@ -9,6 +9,8 @@ packages = [{include = "github_issues"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 
+[tool.poetry.scripts]
+github_issues = "github_issues.main:main"
 
 [build-system]
 requires = ["poetry-core"]
